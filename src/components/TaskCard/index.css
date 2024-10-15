@@ -1,0 +1,94 @@
+.ticket-main {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 250px;
+  height: 120px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ticket-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.ticket-header,
+.ticket-content {
+  font-size: 14px;
+  margin: 3px;
+}
+
+.ticket-content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ticket-title {
+  margin-left: 4px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.ticket-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  margin: 5px 0px;
+}
+
+.ticket-tag {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 4px;
+  margin-top: 2px;
+  margin-right: 3px;
+  border-radius: 8px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+}
+.ticket-tag:first-child{
+  margin-left: 0;
+}
+
+.ticket-tag > div{
+  color: grey;
+  font-size: 12px;
+  margin: 0 4px;
+}
+
+.ticket-id {
+  color: rgba(0, 0, 0, 0.8);
+}
+.greyDot {
+  background-color: #bec4c9;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+}
+.profileCircle{
+  background-color: #bec4c9;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+}
